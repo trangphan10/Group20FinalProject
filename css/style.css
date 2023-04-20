@@ -117,7 +117,7 @@ ul{
     height: 85%;
     width: 90%;
     background-color: #fff; 
-    position:relative;
+    position:absolute;
     padding: 4% 3%;
     border-radius: 10%;
     display: inline-block;
@@ -139,10 +139,6 @@ button{
     height:70px;
 }
 @media screen and (max-width: 600px) {
-    .model{
-        width: 320px;
-        height: 300px;
-    }
    button{
     margin: 0px;
     display: inline-block;

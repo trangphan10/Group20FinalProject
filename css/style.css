@@ -118,7 +118,7 @@ ul{
     width: 90%;
     background-color: #fff; 
     position:absolute;
-    padding: 4% 5%;
+    padding: 5% 5%;
     border-radius: 10%;
     display: inline-block;
     text-align: justify;
@@ -149,5 +149,14 @@ button{
     display: inline-block;
     width:50%;
     height:auto;
+   }
+   .intro > .intro-item{
+    font-size: 0.75 rem;
+   left:5%;
+   right:5%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 0%;
    }
 }

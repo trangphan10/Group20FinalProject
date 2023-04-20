@@ -114,13 +114,14 @@ ul{
 .intro > .intro-item{
     left:5%;
     right: 5%;
-    height: 85%;
+    height: 80%;
     width: 90%;
     background-color: #fff; 
     position:absolute;
-    padding: 4% 3%;
+    padding: 4% 5%;
     border-radius: 10%;
     display: inline-block;
+    text-align: justify;
 }
 .down-item{
     width: 30%;
@@ -136,19 +137,17 @@ button{
     margin: auto;
     display: inline-block;
     width:120px;
-    height:70px;
+    height:auto;
 }
 @media screen and (max-width: 600px) {
+    .model{
+        width: 100%;
+        height: auto;
+    }
    button{
     margin: 0px;
     display: inline-block;
-    width:120px;
-    height:30px;
+    width:50%;
+    height:auto;
    }
-}
-@media  screen and (max-width: 900px) {
-    .model{
-        width: 420px;
-        height: 400px;
-    }
 }

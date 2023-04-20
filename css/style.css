@@ -1,0 +1,158 @@
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    font-size: 5rem;
+    padding: 3% 5%;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 4rem;
+    padding: 3% 5%;
+
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 2rem;
+    text-align: center;
+}
+body{
+    margin:0px;
+}
+/* Title */
+#title{
+    background-color: #B0DAFF;
+    color:#0B2447;
+    padding-bottom: 5%;
+}
+.container-fluid{
+    padding-bottom: 7%;
+}
+.nav-item{
+    padding: 0px 20px;
+}
+.nav-link{
+    color: #05BFDB !important;
+    font-family: 'Chivo Mono', monospace;
+    font-size: medium;
+}
+.nav-link:hover{
+    color: #ADE4DB !important;
+}
+.navbar{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.row{
+    padding-top: 5%;
+}
+.title-img{
+    width: 70%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    display: block;
+}
+/* Introduce */
+#introduce{
+    background-color: #F6F1F1;
+}
+#ChanChan, #HongWan, #HoaiNam{
+    padding: 0% 8% 2%;
+}
+.format-name{
+    font-size: 1rem;
+    font-family: 'Roboto';
+    padding: 3%;
+    width: 250px;
+    display: table; 
+    margin: 0 auto;
+}
+.img-item{
+    width: 200px; 
+    height: 200px;
+    padding: 3% 0% 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-position: center;
+}
+ul{
+    color: #0B2447;
+}
+/* Contact */
+#Contact{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1% 5%;
+    background-color: #6096B4;
+    color: #fff;
+}
+.logo{
+ width:15%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding-bottom: 3%;
+}
+/* Content */
+.intro{
+     background-color:  #B0DAFF; 
+     position:relative;
+     height: 1200px;
+}
+.intro h1{
+    text-align: center;
+    color: #245953;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    font-size: 2.2rem;
+    padding: 3% 5%;
+}
+.intro > .intro-item{
+    left:5%;
+    right: 5%;
+    height: 85%;
+    width: 90%;
+    background-color: #fff; 
+    position:relative;
+    padding: 4% 3%;
+    border-radius: 10%;
+    display: inline-block;
+}
+.down-item{
+    width: 30%;
+    padding: 0% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Download{
+    padding-top: 2%;
+}
+button{
+    margin: auto;
+    display: inline-block;
+    width:120px;
+    height:70px;
+}
+@media screen and (max-width: 600px) {
+    .model{
+        width: 320px;
+        height: 300px;
+    }
+   button{
+    margin: 0px;
+    display: inline-block;
+    width:120px;
+    height:30px;
+   }
+}
+@media  screen and (max-width: 900px) {
+    .model{
+        width: 420px;
+        height: 400px;
+    }
+}

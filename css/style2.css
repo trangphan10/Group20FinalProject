@@ -88,7 +88,7 @@ body {
 /* Styling download button */
 .down-item {
     width: 30%;
-    padding: 0% 5%;
+    padding: 1.5% 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,12 +98,16 @@ body {
     padding-top: 2%;
 }
 
-button {
+.btn {
     display: inline-block;
     width: 70%;
     height: auto;
+    background-color: #AEE2FF!important;
+    cursor: pointer;
 }
-
+.btn:hover{
+    background-color: #CCF3EE !important;
+}
 /* Fit screen with the required devices */
 @media screen and (max-width: 600px) {
     .model {
@@ -111,7 +115,7 @@ button {
         height: auto;
     }
 
-    button {
+    .btn {
         margin: 0px;
         display: inline-block;
         width: 50%;

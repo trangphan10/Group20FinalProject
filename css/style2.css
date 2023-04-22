@@ -75,11 +75,11 @@ body {
 .intro>.intro-item {
     margin-left: 5%;
     margin-right: 5%;
-    height: 80%;
+    height: 85%;
     width: 90%;
     background-color: #fff;
     position: absolute;
-    padding: 5% 5%;
+    padding: 5% 5% 15%;
     border-radius: 10%;
     display: inline-block;
     text-align: justify;
@@ -99,7 +99,6 @@ body {
 }
 
 button {
-    margin: auto;
     display: inline-block;
     width: 70%;
     height: auto;
@@ -123,9 +122,10 @@ button {
         font-size: 0.75 rem;
         left: 5%;
         right: 5%;
-        height: auto;
+        height:80% ;
         margin-left: auto;
         margin-right: auto;
         border-radius: 0%;
     }
 }
+

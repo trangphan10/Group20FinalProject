@@ -1,0 +1,131 @@
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    font-size: 5rem;
+    padding: 3% 5%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 4rem;
+    padding: 3% 5%;
+
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 2rem;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    width:100%;
+}
+
+/* Title */
+#title {
+    padding-bottom: 5%;
+}
+
+.nav-item {
+    padding: 0px 20px;
+}
+
+.nav-link {
+    color: #05BFDB !important;
+    font-family: 'Chivo Mono', monospace;
+    font-size: medium;
+}
+
+.nav-link:hover {
+    color: #ADE4DB !important;
+}
+
+.navbar {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row {
+    padding-top: 5%;
+}
+/* Content */
+.intro {
+    background-color: #B0DAFF;
+    height: 1200px;
+    box-sizing: border-box;
+    position: relative;
+    padding: auto;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.intro h1 {
+    text-align: center;
+    color: #245953;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    font-size: 2.2rem;
+    padding: 3% 5%;
+}
+
+.intro>.intro-item {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 80%;
+    width: 90%;
+    background-color: #fff;
+    position: absolute;
+    padding: 5% 5%;
+    border-radius: 10%;
+    display: inline-block;
+    text-align: justify;
+}
+
+/* Styling download button */
+.down-item {
+    width: 30%;
+    padding: 0% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Download {
+    padding-top: 2%;
+}
+
+button {
+    margin: auto;
+    display: inline-block;
+    width: 70%;
+    height: auto;
+}
+
+/* Fit screen with the required devices */
+@media screen and (max-width: 600px) {
+    .model {
+        width: 100%;
+        height: auto;
+    }
+
+    button {
+        margin: 0px;
+        display: inline-block;
+        width: 50%;
+        height: auto;
+    }
+
+    .intro>.intro-item {
+        font-size: 0.75 rem;
+        left: 5%;
+        right: 5%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0%;
+    }
+}

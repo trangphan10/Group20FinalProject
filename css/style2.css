@@ -84,11 +84,14 @@ body {
     display: inline-block;
     text-align: justify;
 }
+.model{
+    object-fit: cover;
+}
 
 /* Styling download button */
 .down-item {
     width: 30%;
-    padding: 1.5% 5%;
+    padding: 1% 5%;
     display: flex;
     justify-content: center;
     align-items: center;

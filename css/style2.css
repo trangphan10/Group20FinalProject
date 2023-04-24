@@ -102,7 +102,14 @@ body {
 }
 
 .btn {
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: row;
+    gap:7%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    flex:1 1 0;
+    align-items: center;
     width: 70%;
     height: auto;
     background-color: #AEE2FF!important;
@@ -120,16 +127,22 @@ body {
 
     .btn {
         margin: 0px;
-        display: inline-block;
+        display: inline-flex;
+        flex-direction: column;
+        gap:3%;
+        flex:1 1 0;
+        justify-content: center;
         width: 50%;
-        height: auto;
+        height: max-content;
+        text-align: center;
+        align-items: center;
     }
 
     .intro>.intro-item {
         font-size: 0.75 rem;
         left: 5%;
         right: 5%;
-        height:80% ;
+        height:max-content ;
         margin-left: auto;
         margin-right: auto;
         border-radius: 0%;

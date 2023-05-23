@@ -137,6 +137,9 @@ body {
         text-align: center;
         align-items: center;
     }
+    .intro{
+        height:85rem;
+    }
 
     .intro>.intro-item {
         font-size: 0.75 rem;
